@@ -21,8 +21,21 @@ namespace Learning
                 Console.WriteLine("{0} is less than 5", number);
             }
             Console.WriteLine("This statement is always executed");
+
+            Program program = new Program();
+            program.Print();
+
             Console.ReadLine();
 
+
+        }
+        void Print()
+        {
+            int a = 8;
+            int b = 9;
+            int c;
+            c = a + b;
+            Console.WriteLine(c);
         }
     }
 }
