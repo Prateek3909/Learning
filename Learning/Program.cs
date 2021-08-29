@@ -49,6 +49,17 @@ namespace Learning
             Test1(q);
             Console.WriteLine(q[0]);
 
+            int x1 = (int)29.99;
+            Console.WriteLine(x1);
+            float x2 = 3.2f;
+            double x3 = 55.666666;
+            decimal x4 = 5555.666M;
+            double x5 = Math.Pow(9999, 99999999999999999);
+            Console.WriteLine(decimal.Ceiling(x4));
+            Console.WriteLine(x2);
+            Console.WriteLine(x3);
+            Console.WriteLine(x4);
+            Console.WriteLine(double.IsInfinity(x5));
             Console.ReadLine();
 
 
